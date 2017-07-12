@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "iHack",
+  "version": "0.0.1",
+  "description": "Scoring of JavaScript libraries",
+  "icons": { "16": "icon16.ico"},
+  "browser_action": {
+    "default_icon": {
+      "16": "icon16.ico"
+    },
+    "default_title": "iHack",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://unpkg.com/vue@2.3.4",
+    "https://unpkg.com/vue-router@2.6.0/dist/vue-router.js",
+    "https://unpkg.com/axios@0.16.2/dist/axios.min.js",
+    "tts"
+  ]
+}
